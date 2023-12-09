@@ -5,6 +5,6 @@ public class SumTest {
     @Test
     public void testSum(){
         Sum sum = new Sum();
-        assert(sum.sum(1,1) == 2);
+        assert(sum.sum(2,1) == 2);
     }
 }
